@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">	<title></title>
+
+    <style>
+
+        body{
+
+            overflow: hidden;
+
+            background: pink;
+
+        }
+
+        .btn{
+
+            position: absolute;
+
+            top=50%;
+
+            width: 200px;
+
+            height: 50px;
+
+            background: green;
+
+            color: white;
+
+            text-align: center;
+
+            font-size: 2em;
+
+            line-height: 50px;
+
+            border-radius: 50px
+
+        }
+
+      
+
+        .ok{ 
+
+           left: 10%;
+
+        }
+
+         
+
+        .no{  
+
+          background: red;
+
+          left: 50%;
+
+        }
+
+      
+
+        h1{
+
+          color: white;
+
+          text-align: center;
+
+          margin-top: 200px;
+
+          font-size: 3em;
+
+        }
+
+      
+
+        body {
+
+            displ
+
+            flex-direction: column;
+
+            height: 110vh;
+
+            justify-content: ,,center;
+
+            align-items: center;
+
+            background: linear-gradient(rgba(16, 16, 16, 0.8),
+
+                    rgba(16, 16, 16, 0.8)),
+
+                url(https://s1.ax1x.com/2023/01/24/pSYfAzT.jpg) center no-repeat;
+
+            background-size: cover;
+
+        }
+
+        
+
+    </style>
+
+  </head>
+
+  <body>	
+
+	  <h1>做我老婆好不好</h1>
+
+      <div class="btn ok">好</div>
+
+      <div class="btn no">不好</div>
+
+      
+
+      
+
+      <script>
+
+          let no = document.querySelector('.no')
+
+          no.onclick = function(){
+
+              this.style.top = Math.round(Math.random()*80)+'%'
+
+              this.style.left = Math.round(Math.random()*80)+'%'
+
+                            
+
+          }
+
+        
+
+          let ok = document.querySelector('.ok')
+
+          ok.onclick = function(){
+
+              alert("我就知道你会同意的（正在加载wuhui网页）")
+
+              
+
+              window.open("http://98wuhui.github.io/zhiyu");
+
+          }
+
+      
+
+      
+
+      </script>
+
+  </body>
+
+</html>
